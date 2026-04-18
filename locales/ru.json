@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "code": "ru",
+    "name": "Russian",
+    "nativeName": "Русский"
+  },
+  "dashboard": {
+    "title": "CRUCIX — Разведывательный Терминал",
+    "bootTitle": "CRUCIX РАЗВЕДЫВАТЕЛЬНЫЙ ДВИЖОК",
+    "bootSubtitle": "Локальный Palantir · 31 Источник",
+    "waitingForSweep": "Ожидание первого сбора данных...",
+    "sourcesOk": "Источники OK",
+    "lastSweep": "Последний сбор",
+    "nextSweep": "Следующий сбор",
+    "sweep": "СБОР",
+    "sources": "ИСТОЧНИКИ",
+    "delta": "ДЕЛЬТА",
+    "highAlert": "ВЫСОКАЯ УГРОЗА",
+    "riskOff": "УХОД ОТ РИСКА",
+    "riskOn": "ПРИНЯТИЕ РИСКА",
+    "mixed": "СМЕШАННО",
+    "terminalActive": "ТЕРМИНАЛ АКТИВЕН",
+    "perf": "ВИД",
+    "perfLow": "ЛАЙТ",
+    "perfHigh": "ПОЛНЫЙ",
+    "visuals": "ВИЗУАЛ",
+    "visualsLite": "ЛАЙТ",
+    "visualsFull": "ПОЛНЫЙ",
+    "guideBtn": "Что значат сигналы"
+  },
+  "boot": {
+    "initializing": "ИНИЦИАЛИЗАЦИЯ CRUCIX v2.1.0",
+    "connecting": "ПОДКЛЮЧЕНИЕ {count} ИСТОЧНИКОВ OSINT...",
+    "sourceGroup1": "OPENSKY · FIRMS · KIWISDR · MARITIME",
+    "sourceGroup2": "FRED · BLS · EIA · TREASURY · GSCPI",
+    "sourceGroup3": "TELEGRAM · SAFECAST · EPA · ВОЗ · OFAC",
+    "sourceGroup4": "GDELT · NOAA · ПАТЕНТЫ · BLUESKY · REDDIT",
+    "sourceGroup5": "USGS · ЕЦБ · CVE · COPERNICUS · CELESTRAK",
+    "sweepComplete": "СБОР ЗАВЕРШЁН — {ok}/{total} ИСТОЧНИКОВ",
+    "ok": "OK",
+    "acledLayer": "СЛОЙ КОНФЛИКТОВ ACLED",
+    "events": "СОБЫТИЯ",
+    "degraded": "ДЕГРАДИРОВАНО",
+    "flightCorridors": "ВОЗДУШНЫЕ КОРИДОРЫ",
+    "active": "АКТИВНО",
+    "dualProjection": "ДВОЙНАЯ ПРОЕКЦИЯ",
+    "ready": "ГОТОВ",
+    "intelligenceSynthesis": "СИНТЕЗ РАЗВЕДДАННЫХ"
+  },
+  "panels": {
+    "sensorGrid": "Сенсорная Сетка",
+    "tradeIdeas": "Торговые Идеи",
+    "osintFeed": "Лента OSINT",
+    "osintStream": "Поток OSINT",
+    "nuclearWatch": "Ядерный Мониторинг",
+    "newsTicker": "Лента Новостей",
+    "sweepDelta": "Дельта Сбора",
+    "macroMarkets": "Макро + Рынки",
+    "healthAlerts": "Оповещения Здоровья",
+    "riskGauges": "Индикаторы Риска",
+    "crossSourceSignals": "Кросс-Источниковые Сигналы",
+    "signal": "Сигнал",
+    "signalCore": "Ядро Сигналов",
+    "seismicWatch": "Сейсмический Мониторинг",
+    "cyberWatch": "Кибер-Мониторинг",
+    "spaceWatch": "Космический Мониторинг",
+    "europeAlerts": "Оповещения Европы",
+    "ecbIndicators": "Показатели ЕЦБ"
+  },
+  "layers": {
+    "airActivity": "Воздушная Активность",
+    "thermalSpikes": "Тепловые Аномалии",
+    "sdrCoverage": "Покрытие SDR",
+    "maritimeWatch": "Морской Мониторинг",
+    "nuclearSites": "Ядерные Объекты",
+    "conflictEvents": "События Конфликтов",
+    "healthWatch": "Мониторинг Здоровья",
+    "worldNews": "Мировые Новости",
+    "osintFeed": "Лента OSINT",
+    "theaters": "театров",
+    "nightDet": "ночн. детект.",
+    "online": "онлайн",
+    "chokepoints": "точки контроля",
+    "monitors": "мониторов",
+    "fatalities": "погибших",
+    "whoAlerts": "оповещения ВОЗ",
+    "rssGeolocated": "RSS геолоцировано",
+    "earthquakes": "Землетрясения",
+    "seismicEvents": "Сейсмические События",
+    "cyberVulns": "Киберуязвимости",
+    "spaceActivity": "Космическая Активность",
+    "europeEmergency": "Чрезвычайные Ситуации Европы"
+  },
+  "map": {
+    "worldNews": "Мировые Новости",
+    "healthAlert": "Оповещение Здоровья",
+    "chokepoint": "Стратегическая Точка",
+    "nuclearSite": "Ядерный Объект",
+    "osintEvent": "Событие OSINT",
+    "thermalDetection": "Тепловое Обнаружение",
+    "aircraft": "Воздушное Судно",
+    "rssGeolocated": "RSS геолоцировано",
+    "airTraffic": "Воздушное Движение",
+    "thermalFire": "Тепло/Пожар",
+    "conflict": "Конфликт",
+    "sdrReceiver": "Приёмник SDR",
+    "scrollToZoom": "КОЛЕСО — МАСШТАБ · ПЕРЕТАЩИТЬ — ПАНОРАМА",
+    "globeMode": "РЕЖИМ ГЛОБУСА",
+    "flatMode": "ПЛОСКИЙ РЕЖИМ",
+    "earthquake": "Землетрясение",
+    "disaster": "Катастрофа",
+    "weatherAlert": "Метеопредупреждение",
+    "epaRadNet": "EPA RadNet",
+    "spaceStation": "Космическая Станция",
+    "gdeltEvent": "Событие GDELT"
+  },
+  "ideas": {
+    "confidence": "Уверенность",
+    "horizon": "Горизонт",
+    "risk": "Риск",
+    "signals": "Сигналы",
+    "rationale": "Обоснование",
+    "aiEnhanced": "ИИ УЛУЧШЕНО",
+    "llmOff": "LLM ВЫКЛ",
+    "pending": "ОЖИДАНИЕ",
+    "llmNotConfigured": "LLM НЕ НАСТРОЕН",
+    "llmHelp": "Укажите LLM_PROVIDER + учётные данные в .env для активации торговых идей на ИИ",
+    "disclosure": "ТОЛЬКО В ИНФОРМАЦИОННЫХ ЦЕЛЯХ. Это не является финансовой рекомендацией, советом покупать или продавать ценные бумаги. Все наблюдения основаны на публично доступных данных OSINT и не должны использоваться для принятия инвестиционных решений. Проконсультируйтесь с лицензированным финансовым советником перед любыми инвестициями. Прошлые результаты не гарантируют будущих."
+  },
+  "regions": {
+    "world": "Мир",
+    "americas": "Америка",
+    "europe": "Европа",
+    "middleEast": "Ближний Восток",
+    "asiaPacific": "Азиатско-Тихоокеанский",
+    "africa": "Африка"
+  },
+  "badges": {
+    "radiation": "РАДИАЦИЯ",
+    "live": "ПРЯМОЙ ЭФИР",
+    "delayed": "ЗАДЕРЖКА",
+    "items": "ЭЛЕМЕНТОВ",
+    "urgent": "СРОЧНО",
+    "worldview": "ВЗГЛЯД НА МИР",
+    "hotMetrics": "КЛЮЧЕВЫЕ МЕТРИКИ",
+    "stress": "СТРЕСС",
+    "sweeping": "СБОР ДАННЫХ...",
+    "europe": "ЕВРОПА",
+    "orbital": "ОРБИТАЛЬНЫЙ"
+  },
+  "delta": {
+    "baseline": "БАЗОВЫЙ",
+    "escalation": "ЭСКАЛАЦИЯ",
+    "deescalation": "ДЕ-ЭСКАЛАЦИЯ",
+    "stable": "СТАБИЛЬНО",
+    "newSignals": "Новые Сигналы",
+    "resolved": "Устранено",
+    "noChanges": "Изменений с последнего сбора нет",
+    "changes": "Изменений",
+    "critical": "Критических",
+    "new": "НОВЫЙ"
+  },
+  "metrics": {
+    "wtiCrude": "Нефть WTI",
+    "brent": "Brent",
+    "natGas": "Природный Газ",
+    "vix": "VIX",
+    "fedFunds": "Ставка ФРС",
+    "gscpi": "GSCPI",
+    "cpiMom": "ИПЦ мес/мес",
+    "unemployment": "Безработица",
+    "hySpread": "Спред HY",
+    "usdIndex": "Индекс USD",
+    "joblessClaims": "Заявки по безработице",
+    "mortgage30y": "Ипотека 30л",
+    "m2Supply": "Денежная масса M2",
+    "natDebt": "Гос. долг",
+    "wti5day": "WTI 5 ДНЕЙ",
+    "indexes": "ИНДЕКСЫ",
+    "crypto": "КРИПТО",
+    "energyMacro": "ЭНЕРГЕТИКА + МАКРО",
+    "vsPrior": "к предыдущему",
+    "ecbRate": "Ставка ЕЦБ",
+    "eurusd": "EUR/USD",
+    "euM3": "M3 ЕС",
+    "euHicp": "HICP ЕС",
+    "earthquakes7d": "Землетрясения (7д)",
+    "criticalCves": "Критические CVE",
+    "spaceObjects": "Космические Объекты",
+    "starlink": "Starlink",
+    "europeAlerts": "Оповещения ЕС"
+  },
+  "signalMetrics": {
+    "incidentTempo": "Темп Инцидентов",
+    "airTheaters": "Воздушные Театры",
+    "thermalSpikes": "Тепловые Аномалии",
+    "sdrNodes": "Узлы SDR",
+    "chokepoints": "Стратегич. Точки",
+    "whoAlerts": "Оповещения ВОЗ"
+  },
+  "nuclear": {
+    "allSitesNormal": "ВСЕ ОБЪЕКТЫ В НОРМЕ",
+    "anomalyDetected": "ОБНАРУЖЕНА АНОМАЛИЯ",
+    "noData": "Нет данных"
+  },
+  "seismic": {
+    "noRecentQuakes": "ЗНАЧИМЫХ ЗЕМЛЕТРЯСЕНИЙ НЕТ",
+    "majorQuake": "ЗАФИКСИРОВАНО КРУПНОЕ ЗЕМЛЕТРЯСЕНИЕ",
+    "tsunamiRisk": "УГРОЗА ЦУНАМИ",
+    "mag": "М"
+  },
+  "cyber": {
+    "noAlerts": "КРИТИЧЕСКИХ CVE НЕТ",
+    "criticalAlert": "КРИТИЧЕСКИЕ УЯЗВИМОСТИ",
+    "cvss": "CVSS",
+    "critical": "КРИТИЧЕСКИЙ"
+  },
+  "space": {
+    "noActivity": "НОРМАЛЬНАЯ АКТИВНОСТЬ",
+    "launchDetected": "АКТИВНОСТЬ ЗАПУСКОВ",
+    "objectsTracked": "объектов отслеживается",
+    "newLast30d": "новых (30д)",
+    "satellites": "спутн.",
+    "recentLaunches": "Последние Запуски",
+    "totalTracked": "Всего Отслеживается",
+    "byCountry": "ПО СТРАНАМ",
+    "constellations": "СОЗВЕЗДИЯ",
+    "launches": "запусков",
+    "militarySats": "Воен. Спутн.",
+    "milSats": "воен. спутн.",
+    "noData": "НЕТ ДАННЫХ"
+  },
+  "europe": {
+    "noAlerts": "АКТИВНЫХ ОПОВЕЩЕНИЙ НЕТ",
+    "activeAlerts": "АКТИВНЫЕ ОПОВЕЩЕНИЯ",
+    "fires": "Пожары",
+    "floods": "Наводнения",
+    "types": "типов"
+  },
+  "time": {
+    "justNow": "только что",
+    "hoursAgo": "{hours}ч назад",
+    "daysAgo": "{days}д назад"
+  },
+  "bot": {
+    "commands": {
+      "status": "Состояние системы, время последнего сбора, статус источников",
+      "sweep": "Запустить ручной сбор данных",
+      "brief": "Краткая сводка последних разведданных",
+      "portfolio": "Позиции и P&L (если подключён Alpaca)",
+      "alerts": "История последних оповещений",
+      "mute": "Отключить оповещения на 1ч (или /mute 2h, /mute 4h)",
+      "unmute": "Возобновить оповещения",
+      "help": "Показать доступные команды"
+    },
+    "messages": {
+      "alertsMuted": "🔇 Оповещения отключены на {hours}ч — до {time} UTC",
+      "useUnmute": "Используйте /unmute для возобновления.",
+      "alertsResumed": "🔔 Оповещения возобновлены. Вы получите следующую оценку сигналов.",
+      "sweepTriggered": "🚀 Ручной сбор запущен. Вы получите оповещения при обнаружении значимых изменений.",
+      "sweepInProgress": "🔄 Сбор уже выполняется. Пожалуйста, подождите.",
+      "noDataYet": "⏳ Данных ещё нет — ожидается завершение первого сбора.",
+      "noRecentAlerts": "Недавних оповещений нет.",
+      "recentAlerts": "📋 Последние Оповещения (последние {count})",
+      "commandsTip": "Подсказка: команды не чувствительны к регистру",
+      "commandFailed": "❌ Ошибка команды: {error}",
+      "portfolioNotAvailable": "📊 Интеграция портфеля требует подключения Alpaca MCP.\nИспользуйте дашборд Crucix или агента Claude."
+    },
+    "status": {
+      "title": "🖥️ СТАТУС CRUCIX",
+      "uptime": "Время работы",
+      "lastSweep": "Последний сбор",
+      "nextSweep": "Следующий сбор",
+      "sweepInProgress": "Сбор выполняется",
+      "yes": "🔄 Да",
+      "no": "⏸️ Нет",
+      "sources": "Источники",
+      "failed": "сбой",
+      "llm": "LLM",
+      "enabled": "✅",
+      "disabled": "❌ Отключён",
+      "sseClients": "SSE клиентов",
+      "dashboard": "Дашборд",
+      "pending": "ожидание",
+      "never": "никогда"
+    },
+    "brief": {
+      "title": "📋 СВОДКА CRUCIX",
+      "direction": "Направление",
+      "changes": "изменений",
+      "criticalChanges": "критических",
+      "osint": "📡 OSINT",
+      "urgentSignals": "срочных сигналов",
+      "totalPosts": "постов всего",
+      "topIdeas": "💡 Топ Идеи"
+    },
+    "alertTiers": {
+      "flash": "ФЛЭШ",
+      "priority": "ПРИОРИТЕТ",
+      "routine": "ПЛАНОВОЕ"
+    }
+  },
+  "alerts": {
+    "tiers": {
+      "flash": {
+        "label": "ФЛЭШ",
+        "description": "Немедленное действие — влияние на рынок, критично по времени"
+      },
+      "priority": {
+        "label": "ПРИОРИТЕТ",
+        "description": "Важный кластер сигналов — действовать в течение часов"
+      },
+      "routine": {
+        "label": "ПЛАНОВОЕ",
+        "description": "Заметное изменение — информационно, без срочности"
+      }
+    },
+    "confidence": {
+      "high": "ВЫСОКАЯ",
+      "medium": "СРЕДНЯЯ",
+      "low": "НИЗКАЯ"
+    },
+    "fields": {
+      "direction": "Направление",
+      "confidence": "Уверенность",
+      "crossCorrelation": "Кросс-Корреляция",
+      "action": "Действие",
+      "signals": "Сигналы",
+      "monitor": "Мониторить"
+    },
+    "messages": {
+      "alertsMuted": "Оповещения Отключены",
+      "mutedUntil": "Оповещения заглушены на {hours}ч — до {time} UTC.",
+      "useUnmuteToResume": "Используйте /unmute для возобновления.",
+      "alertsResumed": "Оповещения Возобновлены",
+      "willReceiveNext": "Вы получите следующую оценку сигналов."
+    },
+    "ruleBasedHeadlines": {
+      "nuclearAnomaly": "Обнаружена Ядерная Аномалия",
+      "crossDomainSignals": "{count} Критических Кросс-Доменных Сигналов",
+      "escalatingSignals": "{count} Эскалирующих Сигналов",
+      "osintSurge": "Всплеск OSINT: {count} Новых Срочных Постов",
+      "signalChangeDetected": "Обнаружено Изменение Сигнала"
+    }
+  },
+  "discord": {
+    "commands": {
+      "status": "Состояние системы, время последнего сбора, статус источников",
+      "sweep": "Запустить ручной сбор данных",
+      "brief": "Краткая разведывательная сводка",
+      "portfolio": "Статус портфеля (если подключён Alpaca)",
+      "alerts": "История последних оповещений",
+      "mute": "Отключить оповещения (по умолчанию 1ч)",
+      "unmute": "Возобновить оповещения",
+      "muteHoursOption": "Часов отключения (по умолчанию: 1)"
+    }
+  },
+  "llm": {
+    "systemPrompt": "Ты — количественный аналитик в макро-разведывательной фирме. Ты получаешь структурированные данные OSINT + экономические данные из 25 источников и генерируешь 5-8 торговых идей.\n\nПравила:\n- Каждая идея должна ссылаться на конкретные данные из входных данных\n- Указывай обоснование входа, факторы риска и временной горизонт\n- Сочетай геополитические, экономические и рыночные сигналы — проводи кросс-корреляцию\n- Будь конкретен: называй инструменты (тикеры, фьючерсы, ETF), а не расплывчатые секторы\n- Если дельта показывает значимые изменения — начни с них\n- НЕ повторяй идеи из списка \"previous ideas\", если условия существенно не изменились\n- Оценивай уверенность: HIGH (несколько подтверждающих сигналов), MEDIUM (тезис подкреплён), LOW (спекулятивно)\n\nВыводи ТОЛЬКО валидный JSON-массив. Каждый объект:\n{\n  \"title\": \"Короткое название на русском (макс. 10 слов)\",\n  \"type\": \"LONG|SHORT|HEDGE|WATCH|AVOID\",\n  \"ticker\": \"Основной инструмент\",\n  \"confidence\": \"HIGH|MEDIUM|LOW\",\n  \"rationale\": \"Объяснение 2-3 предложения на русском с конкретными данными\",\n  \"risk\": \"Ключевой фактор риска на русском\",\n  \"horizon\": \"Intraday|Days|Weeks|Months\",\n  \"signals\": [\"сигнал1\", \"сигнал2\"]\n}"
+  },
+  "api": {
+    "errors": {
+      "noDataYet": "Данных ещё нет — первый сбор выполняется"
+    }
+  }
+}
