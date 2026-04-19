@@ -6,6 +6,11 @@
 
 > **This is a fork of [Crucix](https://github.com/solarisjon/Crucix).** The following changes were made on top of the original:
 >
+> **Multi-user Telegram bot**
+> - `TELEGRAM_CHAT_ID` now accepts multiple comma-separated IDs: `TELEGRAM_CHAT_ID=111,222,333`
+> - Alerts are broadcast to **all** configured chat IDs simultaneously
+> - Bot commands (`/status`, `/sweep`, `/brief`, etc.) now work for **every** user in the list, not just the first one
+>
 > **Internationalization (i18n) & Russian localization**
 > - Added a full i18n system (`lib/i18n.mjs`) — language is controlled by the `CRUCIX_LANG` env variable (`en` by default, `ru` for Russian)
 > - Added `locales/ru.json` with a complete Russian translation of the dashboard UI and bot messages
@@ -18,8 +23,7 @@
 
 <div align="center">
 
-
-**Your own intelligence terminal. 27 sources. One command. Zero cloud.**
+**Your own intelligence terminal. 29 sources. One command. Zero cloud.**
 
 ## [Visit The Live Site: crucix.live](https://www.crucix.live/)
 
