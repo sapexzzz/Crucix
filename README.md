@@ -4,7 +4,7 @@
 
 </div>
 
-> **This is a fork of [Crucix](https://github.com/solarisjon/Crucix).** The following changes were made on top of the original:
+> **This is a fork of [Crucix](https://github.com/calesthio/Crucix).** The following changes were made on top of the original:
 >
 > **Multi-user Telegram bot**
 > - `TELEGRAM_CHAT_ID` now accepts multiple comma-separated IDs: `TELEGRAM_CHAT_ID=111,222,333`
